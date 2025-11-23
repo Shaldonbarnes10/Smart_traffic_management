@@ -1,4 +1,4 @@
-content = """# 🚦 Smart Traffic Management System
+# 🚦 Smart Traffic Management System
 
 ![Project Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -119,8 +119,8 @@ Ensure you have the following installed:
 
 ## 🤝 Contributors
 
-* **[Your Name]** - *Lead Developer*
-* **[Teammate Name]** - *Algorithm Design*
+* **Shaldon Barnes** - *Team Lead, Lead Developer and Algorithm Design & Development*
+* **Anish Bhat** - *Web Developer & Algorithm Design*
 
 ---
 
