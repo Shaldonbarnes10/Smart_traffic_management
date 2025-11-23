@@ -119,8 +119,8 @@ Ensure you have the following installed:
 
 ## 🤝 Contributors
 
-* **[Your Name]** - *Lead Developer*
-* **[Teammate Name]** - *Algorithm Design*
+* **Shaldon Barnes** - *Team Lead, Lead Developer and Algorithm Design & Development*
+* **Anish Bhat** - *Web Developer & Algorithm Design*
 
 ---
 
