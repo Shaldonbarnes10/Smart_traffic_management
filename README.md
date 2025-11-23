@@ -1,64 +1,60 @@
-# Smart Traffic Management System
+# 🚦 Smart Traffic Management System
 
-A smart city solution designed to optimize traffic flow, reduce congestion, and minimize average travel time using real-time data and adaptive algorithms.
+![Project Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![License](https://img.shields.io/badge/License-MIT-orange)
 
----
-
-## Table of Contents
-
-- [About the Project](#about-the-project)  
-- [Key Features](#key-features)  
-- [Technology Stack](#technology-stack)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Screenshots](#screenshots)  
-- [Future Scope](#future-scope)  
-- [Contributors](#contributors)  
-- [License](#license)
+> An intelligent traffic control system designed to optimize traffic flow, reduce congestion, and prioritize emergency vehicles using real-time density analysis.
 
 ---
 
-## About the Project
-
-Urban traffic congestion is a critical problem in modern cities. This Smart Traffic Management System simulates and optimizes traffic flow across complex intersections and road networks.
-
-By leveraging graph theory and dynamic traffic signal control, the project aims to:
-- Detect congestion in real time  
-- Adjust traffic light durations dynamically  
-- Reroute vehicles to balance load across the network  
-- Analyze network changes (such as demonstrating phenomena like Braess’s Paradox)  
-
----
-
-## Key Features
-
-- **Adaptive Signal Control:** Traffic lights respond to queue lengths and flow changes.  
-- **Congestion Detection:** Real-time detection of bottlenecks and hotspots.  
-- **Route Optimization:** Suggests shortest/least-congested paths for emergency vehicles.  
-- **Simulation Mode:** Visualizes traffic flow via a GUI to demonstrate algorithm performance.  
-- **Analytics & Reports:** Tracks metrics such as average waiting time and estimated CO₂ emissions.  
+## 📖 Table of Contents
+- [About the Project](#-about-the-project)
+- [Key Features](#-key-features)
+- [Technology Stack](#-technology-stack)
+- [Installation & Setup](#-installation--setup)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Future Improvements](#-future-improvements)
+- [Contributors](#-contributors)
 
 ---
 
-## Technology Stack
+## 🧐 About the Project
 
-- **Programming Languages:** Python / C++  
-- **Simulation Tools:** PyGame, SUMO (Simulation of Urban Mobility), NS2  
-- **Data Processing:** Pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn  
-- **Web/Frontend (if applicable):** JavaScript, React (or any chosen stack)  
+Traditional traffic lights operate on fixed timers, which often leads to unnecessary delays and congestion, especially during peak hours. 
+
+The **Smart Traffic Management System** solves this by making traffic lights "intelligent." It analyzes the density of vehicles in each lane and adjusts the green light duration dynamically. If a lane is empty, the system skips it or reduces its time; if a lane is crowded, it gets more green time.
+
+**Goal:** minimize average waiting time and carbon emissions caused by idling vehicles.
 
 ---
 
-## Installation
+## 🌟 Key Features
 
-### Prerequisites  
-Ensure the following are installed:  
-- Python 3.8+  
-- Git  
+* **Dynamic Signal Timing:** Automatically adjusts green light duration based on vehicle count.
+* **Real-time Density Detection:** Detects how many vehicles are waiting in each lane.
+* **Emergency Vehicle Priority:** (Optional) Clears the path for ambulances or fire trucks.
+* **Simulation/Visualization:** Visual interface to monitor traffic flow and system decisions.
+* **Scalable Logic:** Algorithm can be applied to single intersections or expanded to networks.
 
-### Steps  
+---
+
+## 🛠 Technology Stack
+
+* **Programming Language:** Python
+* **Libraries/Modules:** * `pygame` (for simulation rendering)
+    * `math` / `random` (for logic and vehicle generation)
+    * `time` (for signal timing)
+    * *(Add any others you used, e.g., OpenCV, NumPy)*
+
+---
+
+## ⚡ Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/Shaldonbarnes10/Smart_traffic_management.git  
-cd Smart_traffic_management  
-pip install -r requirements.txt  
+git clone [https://github.com/Shaldonbarnes10/Smart_traffic_management.git](https://github.com/Shaldonbarnes10/Smart_traffic_management.git)
+cd Smart_traffic_management
