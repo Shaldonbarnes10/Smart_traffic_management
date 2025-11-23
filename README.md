@@ -141,19 +141,70 @@ how **AI + IoT + Data Analytics** can power the next generation of
 
 ## 📂 Repository Structure
 
-    ├── backend/
-    │   ├── app.js
-    │   ├── routes/
-    │   └── models/
-    ├── frontend/
-    │   ├── src/
-    │   ├── components/
-    │   └── public/
-    ├── data/
-    │   └── traffic_simulation.csv
-    ├── models/
-    │   └── congestion_predictor.ipynb
-    └── README.md
+SMART_TRAFFIC_MANAGEMENT_SYSTEM/
+│
+├── backend/                           # Node.js + Express backend
+│   ├── node_modules/
+│   ├── src/
+│   │   ├── routes/
+│   │   │   └── trafficRoutes.js
+│   │   ├── controllers/
+│   │   │   └── trafficController.js
+│   │   ├── models/
+│   │   │   └── logsModel.js
+│   │   ├── services/
+│   │   │   └── signalOptimizer.js
+│   │   └── app.js
+│   ├── .env
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
+│
+├── frontend/                          # React + Vite Frontend
+│   ├── node_modules/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Heatmap.jsx
+│   │   │   └── TrafficCard.jsx
+│   │   ├── pages/
+│   │   │   └── Dashboard.jsx
+│   │   ├── styles/
+│   │   │   └── dashboard.css
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   ├── tsconfig.json (if using TS)
+│   └── README.md
+│
+├── ml/                               # Machine Learning module
+│   ├── __pycache__/
+│   ├── data/
+│   │   └── traffic_data.csv
+│   ├── models/
+│   │   ├── traffic_model.joblib
+│   │   └── lstm_model.h5 (if used)
+│   ├── scripts/
+│   │   ├── train_model.py
+│   │   ├── predictor.py
+│   │   └── vision_counter.py
+│   ├── utils/
+│   │   └── csv_generator.py
+│   ├── myenv/                        # Python virtual environment
+│   ├── requirements.txt
+│   └── README.md
+│
+├── docs/                                # Documentation
+│   ├── architecture_diagram.png
+│   └── system_design.md
+│
+├── .gitignore
+├── README.md                             # Main project description
+└── LICENSE (optional)
+
 
 ------------------------------------------------------------------------
 
