@@ -1,4 +1,4 @@
-##🚦 Smart Traffic Management System
+## 🚦 Smart Traffic Management System
 
 ![Project Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
