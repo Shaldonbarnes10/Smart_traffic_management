@@ -5,8 +5,7 @@
 ![Stack](https://img.shields.io/badge/Stack-MERN%20%2B%20Python%20ML-orange)
 
 **Team:** Witty Hackers  
-**Members:**  Shaldon Barnes (NNM23CS172)
-* Anish Bhat (NNM23CS036)
+**Members:**  Shaldon Barnes (NNM23CS172) & Anish Bhat (NNM23CS036)
 
 ---
 
